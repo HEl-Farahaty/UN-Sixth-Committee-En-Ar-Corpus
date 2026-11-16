@@ -36,7 +36,7 @@ This original-unit and primary-link representation preserves source-level identi
 
 `JSONL.GZ` stores UTF-8 JSON objects, preserving Arabic text and source/review metadata. TSV files are UTF-8 tabular indexes. The released row's `doc_key`, `doc_id`, `session`, `key`, `display_order_candidate`, `en`, `ar`, `english_text`, `arabic_text`, `visible`, `correspondence_type`, `source` and `review_status` fields support document-aware retrieval. Missing unit identifiers are genuinely absent; do not infer them from the text.
 
-`metadata/PUBLICATION_MANIFEST.json` records release provenance, counts, hashes of the source snapshots, and structural QA scope. `SHA256SUMS.txt` enables download integrity verification.
+`metadata/PUBLICATION_MANIFEST.json` records release provenance, counts, hashes of the source snapshots, and structural QA scope. 
 
 The original official UN documents are the underlying provenance. See the associated corpus paper for the selection and processing methodology; follow the repository's applicable licensing terms for reuse. This release does not add a new licence to UN documents.
 
