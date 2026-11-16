@@ -29,9 +29,8 @@ This original-unit and primary-link representation preserves source-level identi
 - All documents are included whether marked `finished`, `in_progress` or `not_reviewed`. These values describe review progress, not an independent truth or quality rating for individual alignments.
 - This is a **versioned final release** (`v1.0`); it does not claim all entries have undergone independent semantic, OCR or bilingual-source adjudication.
 - 71,633 visible added rows have no frozen-unit membership. They are intentionally retained as unbound website records; identifiers are not invented.
-- 441 visible records have no content or unit membership. They are retained to reproduce the saved website state and must **not** be treated as usable sentence pairs.
-- 61,800 explicitly excluded rows are omitted from the active website layer. The historical frozen layer remains unchanged for provenance; superseded entries in it should not be treated as the current selection.
-- The latest revision database in this snapshot was saved **23 October 2026**. Changes made later on AIRE or kept only in unsaved browser drafts were not captured in this release.
+
+
 
 ## Formats and processing
 
