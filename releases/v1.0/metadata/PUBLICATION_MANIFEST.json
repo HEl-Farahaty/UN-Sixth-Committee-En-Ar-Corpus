@@ -1,0 +1,49 @@
+{
+  "browser_pixel_parity_checked": false,
+  "dataset": "UN6C",
+  "included_review_statuses": [
+    "finished",
+    "in_progress",
+    "not_reviewed"
+  ],
+  "independent_semantic_qa_claimed": false,
+  "later_aire_revisions_checked": false,
+  "publication_contents": "current website visible rows + separate frozen source layer + metadata; not a full SSD/AIRE backup",
+  "publication_scope": "1,957 bilingual documents, sessions 45–79",
+  "publication_state": "FINAL_VERSIONED_SNAPSHOT_WITH_DOCUMENTED_LIMITATIONS",
+  "qa_all_rows": 338638,
+  "qa_documents": 1957,
+  "qa_excluded_rows": 61800,
+  "qa_review_status_counts": {
+    "finished": 163,
+    "in_progress": 428,
+    "not_reviewed": 1366
+  },
+  "qa_state": "STRUCTURAL_QA_PASS_NOT_SEMANTIC_REVIEW",
+  "qa_unbound_added_rows": 71633,
+  "qa_visible_empty_rows": 441,
+  "qa_visible_rows": 276838,
+  "source_baseline_export_date": "2026-10-12",
+  "source_revision_database_last_saved_utc": "2026-10-23T05:34:00Z",
+  "source_snapshot_sha256": {
+    "DOCUMENT_INDEX.tsv": "27b09c462eeeae74ca5af91a1f7f3bc711fa154384f0bed9a5623a76a767655d",
+    "FROZEN_COMPANION_LINKS.jsonl.gz": "a1cf37cdf523f09c303c427db1f84828a3fdc4b9f0218372c5669d32558b5d77",
+    "FROZEN_ORIGINAL_UNITS.jsonl.gz": "85b4dfcbc92ec60cbd56a61bba311422b996a9da9f4a087859e808ef0cdacd03",
+    "PRIMARY_SELECTED_LINKS.jsonl.gz": "fc57dbaf82e97fa2b257312658e22035bd8981bb6ff332d78e7ac3f07ed1ebc0",
+    "review_database_sqlite3": "22779f6347547705a036180e7dce924925dd592505de9a2a171908b7db9db4d7",
+    "website_index_html": "39f8b2767ef99592652d802c631258f7baac5667992ef019b93325d0eb3146d8",
+    "website_index_json": "794a3d909537d9cfed72670e7fe52d2c7da566ab0c61bfe28c9bdc33ddd6bb71"
+  },
+  "structural_qa_passed": true,
+  "tmx": {
+    "excluded_from_tmx_but_in_current_jsonl": 3420,
+    "files": [
+      "data/tmx/UN6C_v1.0_en-ar.tmx.gz"
+    ],
+    "format": "TMX 1.4",
+    "source_layer": "current_website_visible_rows",
+    "translation_units": 273418,
+    "xml_1_0_replacement_characters": 92
+  },
+  "version": "v1.0"
+}

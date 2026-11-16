@@ -1,0 +1,202 @@
+{
+  "excluded_from_tmx_but_retained_in_jsonl": 3420,
+  "files": [
+    "data/tmx/UN6C_v1.0_en-ar.tmx.gz"
+  ],
+  "format": "TMX 1.4",
+  "input_visible_rows": 276838,
+  "invalid_xml_characters_replaced_in_tmx": 92,
+  "jsonl_remains_source_of_truth": true,
+  "note": "TMX represents matched EN+AR text groups only. For unmatched records, empty rows, richer structure, and exact Unicode text, use current JSONL. TMX does not confer manual-review approval.",
+  "sessions": {
+    "45": {
+      "explicit_monolingual": 54,
+      "tmx_units": 7953,
+      "visible": 8007
+    },
+    "46": {
+      "explicit_monolingual": 333,
+      "no_english_text": 2,
+      "tmx_units": 8584,
+      "visible": 8919
+    },
+    "47": {
+      "explicit_monolingual": 91,
+      "tmx_units": 7355,
+      "visible": 7446
+    },
+    "48": {
+      "explicit_monolingual": 12,
+      "tmx_units": 5323,
+      "visible": 5335
+    },
+    "49": {
+      "explicit_monolingual": 25,
+      "tmx_units": 8615,
+      "visible": 8640
+    },
+    "50": {
+      "explicit_monolingual": 264,
+      "tmx_units": 7329,
+      "visible": 7593
+    },
+    "51": {
+      "explicit_monolingual": 51,
+      "tmx_units": 7894,
+      "visible": 7945
+    },
+    "52": {
+      "explicit_monolingual": 97,
+      "tmx_units": 7653,
+      "visible": 7750
+    },
+    "53": {
+      "explicit_monolingual": 19,
+      "tmx_units": 6502,
+      "visible": 6521
+    },
+    "54": {
+      "explicit_monolingual": 97,
+      "tmx_units": 8321,
+      "visible": 8418
+    },
+    "55": {
+      "explicit_monolingual": 29,
+      "tmx_units": 7995,
+      "visible": 8024
+    },
+    "56": {
+      "explicit_monolingual": 36,
+      "tmx_units": 6134,
+      "visible": 6170
+    },
+    "57": {
+      "explicit_monolingual": 36,
+      "tmx_units": 5944,
+      "visible": 5980
+    },
+    "58": {
+      "explicit_monolingual": 14,
+      "tmx_units": 5933,
+      "visible": 5947
+    },
+    "59": {
+      "explicit_monolingual": 38,
+      "tmx_units": 7154,
+      "visible": 7192
+    },
+    "60": {
+      "explicit_monolingual": 9,
+      "tmx_units": 6093,
+      "visible": 6102
+    },
+    "61": {
+      "explicit_monolingual": 15,
+      "no_english_text": 1,
+      "tmx_units": 6407,
+      "visible": 6423
+    },
+    "62": {
+      "explicit_monolingual": 22,
+      "tmx_units": 8323,
+      "visible": 8345
+    },
+    "63": {
+      "empty_both": 395,
+      "explicit_monolingual": 7,
+      "tmx_units": 7195,
+      "visible": 7597
+    },
+    "64": {
+      "empty_both": 46,
+      "explicit_monolingual": 14,
+      "tmx_units": 7220,
+      "visible": 7280
+    },
+    "65": {
+      "explicit_monolingual": 29,
+      "no_arabic_text": 2,
+      "tmx_units": 6985,
+      "visible": 7016
+    },
+    "66": {
+      "explicit_monolingual": 32,
+      "tmx_units": 7428,
+      "visible": 7460
+    },
+    "67": {
+      "explicit_monolingual": 3,
+      "tmx_units": 7370,
+      "visible": 7373
+    },
+    "68": {
+      "explicit_monolingual": 30,
+      "tmx_units": 9887,
+      "visible": 9917
+    },
+    "69": {
+      "explicit_monolingual": 116,
+      "tmx_units": 9833,
+      "visible": 9949
+    },
+    "70": {
+      "explicit_monolingual": 62,
+      "tmx_units": 9140,
+      "visible": 9202
+    },
+    "71": {
+      "explicit_monolingual": 106,
+      "tmx_units": 4000,
+      "visible": 4106
+    },
+    "72": {
+      "explicit_monolingual": 62,
+      "tmx_units": 3431,
+      "visible": 3493
+    },
+    "73": {
+      "explicit_monolingual": 285,
+      "tmx_units": 7383,
+      "visible": 7668
+    },
+    "74": {
+      "explicit_monolingual": 240,
+      "tmx_units": 7272,
+      "visible": 7512
+    },
+    "75": {
+      "explicit_monolingual": 418,
+      "tmx_units": 8081,
+      "visible": 8499
+    },
+    "76": {
+      "explicit_monolingual": 129,
+      "tmx_units": 10942,
+      "visible": 11071
+    },
+    "77": {
+      "explicit_monolingual": 79,
+      "tmx_units": 17135,
+      "visible": 17214
+    },
+    "78": {
+      "explicit_monolingual": 67,
+      "tmx_units": 19816,
+      "visible": 19883
+    },
+    "79": {
+      "explicit_monolingual": 53,
+      "tmx_units": 788,
+      "visible": 841
+    }
+  },
+  "source": "data/current/WEBSITE_VISIBLE_CORRESPONDENCES.jsonl.gz (or session shards)",
+  "tmx_omission_reasons": {
+    "empty_both": 441,
+    "explicit_monolingual": 2974,
+    "no_arabic_text": 2,
+    "no_english_text": 3
+  },
+  "tmx_translation_units": 273418,
+  "version": "v1.0"
+}
