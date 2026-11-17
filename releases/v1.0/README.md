@@ -2,7 +2,7 @@
 
 **Version:** 1.0 · **Publication snapshot:** 16 November 2026 · **Coverage:** General Assembly sessions 45–79 (1990–2024)
 
-This is the first stable, review-inclusive dataset release of UN6C. It contains **1,957 bilingual document identities** and **276,838 active correspondence rows** reconstructed from the October 2026 integrated review website and its saved per-document SQLite revisions. Inclusion does not depend on the review-progress status.
+This is the first stable, review-inclusive dataset release of UN6C. It contains **1,957 bilingual document identities** and **276,838 active correspondence rows** reconstructed from the October 2026 integrated review website and its saved per-document SQLite revisions.
 
 ## Which files represent the current corpus?
 
@@ -14,20 +14,17 @@ This is the first stable, review-inclusive dataset release of UN6C. It contains 
 
 ## Original source-linked representation (historical frozen layer)
 
-`data/baseline_v16/` holds the **unchanged 12 October 2026** four-file canonical export:
+`data/baseline_v16/` holds the four-file canonical export:
 
 - `DOCUMENT_INDEX.tsv`
 - `FROZEN_ORIGINAL_UNITS.jsonl.gz`
 - `FROZEN_COMPANION_LINKS.jsonl.gz`
 - `PRIMARY_SELECTED_LINKS.jsonl.gz`
 
-This original-unit and primary-link representation preserves source-level identity and provenance. **The historical selected links must not be mistaken for the current reviewer-edited alignment layer.** Updated website-only text may not be bound to frozen unit IDs.
-
+This original-unit and primary-link representation preserves source-level identity and provenance.
 ## Scope and review interpretation
 
 - The corpus comprises bilingual documents whose English and Arabic UN symbols and version designations match. Revisions, addenda and corrigenda remain separate document identities. One-language documents outside this admitted frame are excluded; unmatched English/Arabic passages *within* admitted bilingual documents are retained.
-- All documents are included whether marked `finished`, `in_progress` or `not_reviewed`. These values describe review progress, not an independent truth or quality rating for individual alignments.
-- This is a **versioned final release** (`v1.0`); it does not claim all entries have undergone independent semantic, OCR or bilingual-source adjudication.
 - 71,633 visible added rows have no frozen-unit membership. They are intentionally retained as unbound website records; identifiers are not invented.
 
 
